@@ -1,0 +1,14 @@
+﻿{
+  "platformName": "iOS",
+  "appium:deviceName": "iPhone 14",
+  "appium:platformVersion": "16",
+  "appium:automationName": "XCUITest",
+  "appium:app": "bs://<APP_ID>",
+  "bstack:options": {
+    "projectName": "QA Mobile Portfolio",
+    "buildName": "ios-smoke",
+    "sessionName": "login-smoke",
+    "userName": "${BROWSERSTACK_USERNAME}",
+    "accessKey": "${BROWSERSTACK_ACCESS_KEY}"
+  }
+}
